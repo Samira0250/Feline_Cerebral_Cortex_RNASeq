@@ -9,19 +9,6 @@ Differential Exon Usage (DEU) using DEXSeq
 
 The analysis is performed on mapped and counted RNA-seq reads, and includes downstream steps like normalization, visualization, gene ranking for GSEA, and exon-level quantification.
 
-📁 Repository Structure
-graphql
-Copy
-Edit
-Feline_Cerebral_Cortex_RNASeq/
-├── DESeq2_analysis.R           # Main DESeq2 script for DGE
-├── DEXSeq_analysis.R           # DEXSeq pipeline for differential exon usage
-├── submit_deseq2.pbs           # PBS job script for running DESeq2 on ASC
-├── data/                       # Count matrices and metadata
-├── results/                    # Output files: CSVs, plots, heatmaps
-├── gsea/                       # Ranked list and files for GSEA PreRanked analysis
-└── README.md                   # This file
-🛠️ Requirements
 The pipeline is designed to run on a high-performance computing environment (Alabama Supercomputer). Make sure the following R packages are installed:
 
 DESeq2
