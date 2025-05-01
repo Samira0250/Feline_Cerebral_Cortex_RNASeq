@@ -24,7 +24,7 @@ The pipeline is designed to run on a high-performance computing environment (Ala
 *biomaRt (optional: for cross-species gene mapping)*
 
 
-📊 Outputs
+*Outputs*
 Normalized gene expression tables
 
 ## DE results with adjusted p-values and log2 fold changes
